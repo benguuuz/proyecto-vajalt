@@ -7,40 +7,36 @@
 
 body {
     font-family: Georgia, serif;
-    background-color: #f9f6f2; 
+    background-color: #EDE8DC; 
     color: #333;
     line-height: 1.6;
 }
 
-/* HEADER */
 header.contenedor_encabezado {
-    background-color: #e0ded3;
     text-align: center;
-    padding: 2rem 1rem;
     border-bottom: 2px solid #ccc;
 }
 
-.titulo_encabezado {
-    font-size: 2.5rem;
-    margin: 0;
-    color: #5c5c5c;
-}
-
-.item_encabezado {
-    width: 90px;
-    height: auto;
-    margin-top: 10px;
-    border-radius: 10px;
+/*IMG logo*/
+.img_encabezado{
+    width: 100%
 }
 
 /* NAV */
 nav.contenedor_navbar {
-    background-color: #b6cfc6;
+    background-color: #6F826A;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: center; /* Alinea los elementos verticalmente */
+    flex-wrap: nowrap; /* Evita que los elementos se vayan a otra línea */
     padding: 1rem;
     gap: 15px;
+}
+
+.img_navbar {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
 }
 
 .item_navbar {
@@ -50,12 +46,13 @@ nav.contenedor_navbar {
     padding: 8px 16px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    display: inline-block; /* Asegura que los enlaces no sean de bloque */
 }
 
 .item_navbar:hover {
-    background-color: #8baea3;
+    background-color: #a3be9d;
+    color: #7d4f1d;
 }
-
 
 /* SECTION */
 section {
@@ -96,13 +93,14 @@ p {
 
 /* FOOTER */
 footer.contenedor_pie {
-    background-color: #e0ded3;
+    background-color: #6F826A;
     text-align: center;
     padding: 2rem 1rem;
     border-top: 2px solid #ccc;
 }
 footer h2 {
     margin-bottom: 1rem;
+    color: #EDE8DC;
 }
 footer img {
     width: 35px;
@@ -112,5 +110,6 @@ footer img {
 footer img:hover {
     transform: scale(1.1);
 }
+
 
   
