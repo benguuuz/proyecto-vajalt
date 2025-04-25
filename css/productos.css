@@ -161,6 +161,40 @@ section {
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
+.contenedor_imagenes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.titulo_extraccion {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #555;
+    width: 100%;
+}
+
+.img_extraccion {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Asegura alineación vertical */
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.img_salar {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+
 .contenedor_sal {
     display: flex;
     flex-wrap: wrap;
